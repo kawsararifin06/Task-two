@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100 text-gray-800 font-sans">
+    <!-- Header -->
+    <header class="bg-white shadow-md p-6">
+      <div class="max-w-6xl mx-auto flex justify-between items-center">
+        <h1 class="text-2xl font-bold">Kawsar Ahmed</h1>
+        <nav>
+          <ul class="flex gap-6 text-lg">
+            <li><a href="#about" class="hover:text-blue-500">About</a></li>
+            <li><a href="#contact" class="hover:text-blue-500">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section with Profile Picture -->
+    <section class="bg-blue-600 text-white py-20 text-center">
+      <div class="flex flex-col items-center">
+        <img
+          src="c:\Users\Ns Laptop\Pictures\Camera Roll\WhatsApp Image 2025-06-02 at 13.36.37_0c8b85d5.jpg"
+          alt="Profile Picture"
+          class="w-32 h-32 rounded-full mb-4 border-4 border-white shadow-lg"
+        />
+        <h2 class="text-4xl font-bold mb-2">Kawsar Ahmed</h2>
+        <p class="text-xl">Web Developer | UI/UX Enthusiast | Problem Solver</p>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 px-6 max-w-4xl mx-auto">
+      <h3 class="text-3xl font-semibold mb-4">About Me</h3>
+      <p class="text-lg leading-relaxed">
+        I'm a passionate web developer with experience in building responsive, user-friendly websites. I specialize in front-end technologies like HTML, CSS, JavaScript, and frameworks like Tailwind CSS and React.
+      </p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 px-6 max-w-4xl mx-auto">
+      <h3 class="text-3xl font-semibold mb-6">Contact</h3>
+      <form class="space-y-4">
+        <input
+          type="text"
+          placeholder="Your Name"
+          class="w-full p-3 border border-gray-300 rounded"
+        />
+        <input
+          type="email"
+          placeholder="Your Email"
+          class="w-full p-3 border border-gray-300 rounded"
+        />
+        <textarea
+          placeholder="Your Message"
+          class="w-full p-3 border border-gray-300 rounded"
+          rows="5"
+        ></textarea>
+        <button
+          type="submit"
+          class="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700"
+        >
+          Send Message
+        </button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white text-center py-6 border-t mt-16">
+      <p class="text-gray-600">&copy; 2025 Kawsar Ahmed. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
